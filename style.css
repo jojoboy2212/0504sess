@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* 메뉴 하이라이트 위치*/
 .highlights {
     margin: 50px auto;
@@ -14,9 +13,31 @@
     display: block;
 }
 
+.highimg {
+    width: 83px;
+    height: 83px;
+    border-radius: 100%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.imgcircle {
+    border-radius: 100%;
+    width: 82px;
+    height: 82px;
+}
+
+.highcaption {
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 23px;
+}
+
 /* 게시물 위치 및 메뉴바 부분 */
 
-=======
 /* 네브바 */
 .navbar {
     display: flex;
@@ -54,7 +75,6 @@
 .nav-right i {
     font-size: 20px;
 }
->>>>>>> b35a249cae2ab38b80856cddc8d5535b19b42175
 .contents {
     width: 70%;
     margin: 0 auto;
