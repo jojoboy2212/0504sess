@@ -69,6 +69,11 @@
     align-items: center;
     padding: 10px 0;
 }
+.profiledetail button {
+    width: fit-content;
+    font-size: 15px;
+    border-radius: 5px;
+}
 
 /* 메뉴 하이라이트 위치*/
 .highlights {
