@@ -1,3 +1,43 @@
+/* 메뉴 하이라이트 위치*/
+.highlights {
+    margin: 50px auto;
+    width: 70%;
+    display: flex;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.highlight {
+    width: 83px;
+    margin: 0 25px;
+    display: block;
+}
+
+.highimg {
+    width: 83px;
+    height: 83px;
+    border-radius: 100%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.imgcircle {
+    border-radius: 100%;
+    width: 82px;
+    height: 82px;
+}
+
+.highcaption {
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 23px;
+}
+
+/* 게시물 위치 및 메뉴바 부분 */
+
 /* 네브바 */
 .navbar {
     display: flex;
