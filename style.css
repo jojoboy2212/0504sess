@@ -73,6 +73,41 @@
 .nav-right i {
     font-size: 20px;
 }
+
+/* 프로필 박스 */
+.profilebox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+}
+.profileimg {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.profileimg img {
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+.profile {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    justify-content: center;
+}
+.profiledetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+/* 컨텐츠 */
 .contents {
     width: 70%;
     margin: 0 auto;
