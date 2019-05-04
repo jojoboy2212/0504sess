@@ -1,7 +1,7 @@
 /* 메뉴 하이라이트 위치*/
 .highlights {
     margin: 50px auto;
-    width: 70%;
+    width: 48%;
     display: flex;
     align-content: center;
 }
@@ -23,8 +23,8 @@
 }
 .imgcircle {
     border-radius: 100%;
-    width: 82px;
-    height: 82px;
+    width: 83px;
+    height: 83px;
 }
 
 .highcaption {
