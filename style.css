@@ -1,42 +1,3 @@
-/* 메뉴 하이라이트 위치*/
-.highlights {
-    margin: 50px auto;
-    width: 70%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-.highlight {
-    width: 83px;
-    margin: 0 25px;
-    display: block;
-}
-
-.highimg {
-    width: 83px;
-    height: 83px;
-    border-radius: 100%;
-    border: 1px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.imgcircle {
-    border-radius: 100%;
-    width: 83px;
-    height: 83px;
-}
-
-.highcaption {
-    margin: 0 auto;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 23px;
-}
-
-/* 게시물 위치 및 메뉴바 부분 */
-
 /* 네브바 */
 .navbar {
     display: flex;
@@ -107,6 +68,43 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+}
+
+/* 메뉴 하이라이트 위치*/
+.highlights {
+    margin: 50px auto;
+    width: 70%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.highlight {
+    width: 83px;
+    margin: 0 25px;
+    display: block;
+}
+
+.highimg {
+    width: 83px;
+    height: 83px;
+    border-radius: 100%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcircle {
+    border-radius: 100%;
+    width: 83px;
+    height: 83px;
+}
+
+.highcaption {
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 23px;
 }
 
 /* 컨텐츠 */
