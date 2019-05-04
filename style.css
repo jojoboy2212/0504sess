@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 메뉴 하이라이트 위치*/
 .highlights {
     margin: 50px auto;
@@ -15,6 +16,45 @@
 
 /* 게시물 위치 및 메뉴바 부분 */
 
+=======
+/* 네브바 */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    border-color: gray;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    top: 0;
+    height: 60px;
+}
+.nav-left {
+    width: 150px;
+}
+.nav-center {
+    width: 200px;
+    border-radius: 4px;
+    border-color: lightgray;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(245, 245, 245);
+    color:lightgray;
+}
+.nav-right {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right i {
+    font-size: 20px;
+}
+>>>>>>> b35a249cae2ab38b80856cddc8d5535b19b42175
 .contents {
     width: 70%;
     margin: 0 auto;
