@@ -1,9 +1,10 @@
 /* 메뉴 하이라이트 위치*/
 .highlights {
     margin: 50px auto;
-    width: 48%;
+    width: 70%;
     display: flex;
     align-content: center;
+    justify-content: center;
 }
 
 .highlight {
@@ -76,11 +77,12 @@
 
 /* 프로필 박스 */
 .profilebox {
+    margin: 50px auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 70px 0;
+    width: 70%;
 }
 .profileimg {
     width: 400px;
@@ -140,4 +142,9 @@
     display: block;
     padding: 0;
     margin-right: 2%;
+}
+
+.highblank {
+    width: 300px;
+    padding-right: 100px;
 }
