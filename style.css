@@ -1,0 +1,34 @@
+.contents {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    border-top: 1px solid black;
+}
+.subnav {
+    display: flex;
+    margin: 20px auto;
+    width: fit-content;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 0;
+    justify-content: space-evenly;
+
+}
+
+.instaimg {
+    width: 18rem;
+    height: 18rem;
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 0.1rem;
+    margin-left: 0.2rem;
+    display: block;
+    padding: 0;
+    margin-right: 2%;
+}
